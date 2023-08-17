@@ -1,0 +1,58 @@
+/* 1. element selector */
+h1{
+    color: blue;
+}
+
+/* 2. class selector */
+.para{
+    color: brown;
+}
+
+/* 3. id selector */
+#newpara{
+    background-color: aqua;
+    
+}
+
+/* universal seector */
+*{
+    border: solid black thin !important;
+}
+
+
+
+#newpara{
+    color:slateblue;
+    text-align: center;
+
+    /*Hexa*/
+    color: #000;
+    color: #fff;
+
+    /* RGB */
+    color: rgb(255, 1, 100);
+
+    /* background */
+    background-color: aqua;
+    background-image: none;
+    background-repeat: unset;
+
+    /* border */
+    border: dashed red 1px !important;
+
+    /* margin */
+    margin: 100px;
+
+    /* padding top right bottom left*/
+    padding: 60px 30px 30px 10px;
+
+    /* width & height (uses px,pt,%,vh) */
+    width: 800px;
+    height: 15vh;  /* (vh: vertical height) */
+
+    /* font */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* display */
+    /* display: none; */
+}
